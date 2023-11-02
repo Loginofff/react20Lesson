@@ -24,9 +24,10 @@
     "typecheck": "tsc",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "<https://github.com/Loginofff/react20Lesson.git>"
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://github.com/Loginofff/react20Lesson.git",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
