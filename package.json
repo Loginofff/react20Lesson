@@ -23,8 +23,9 @@
     "eject": "react-scripts eject",
     "typecheck": "tsc",
     "lint": "eslint .",
-    "deploy": "npm run build && gh-pages -d build",
-    "homepage": "<https://github.com/Loginofff/react20Lesson.git>"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "homepage": "<https://github.com/Loginofff/react-home.git>"
   },
   "eslintConfig": {
     "extends": [
